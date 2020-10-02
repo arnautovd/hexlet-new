@@ -16,3 +16,5 @@ const func = (a, b) => {
 }
 
 console.log(func(10,120));
+
+console.log("Printing something new");
