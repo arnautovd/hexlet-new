@@ -3,6 +3,12 @@ const func = (a, b) => {
     if (len > 1) {
         let arr = (a + b).toString().split('');
         console.log(arr);
+        
+        arr.forEach(element => {
+
+            console.log(parseInt(element) + 1);
+            
+        });
     }
     else {
         console.log("We get problems");
